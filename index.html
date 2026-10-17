@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata & Portofolio - Alif Pri Hardhono</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg text-teal-700 tracking-tight flex items-center gap-2">
+        <i class="fa-solid fa-user-nurse text-teal-600"></i>
+        <span>Alif Pri Hardhono</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+        <a href="#tentang" class="hover:text-teal-600 transition">Tentang</a>
+        <a href="#pengalaman" class="hover:text-teal-600 transition">Pengalaman</a>
+        <a href="#pendidikan" class="hover:text-teal-600 transition">Pendidikan</a>
+        <a href="#keahlian" class="hover:text-teal-600 transition">Keahlian</a>
+        <a href="#kontak" class="hover:text-teal-600 transition">Kontak</a>
+      </nav>
+      <a href="mailto:aldozu424@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 text-xs sm:text-sm font-semibold text-white bg-teal-600 hover:bg-teal-700 rounded-lg shadow-sm transition">
+        <i class="fa-regular fa-envelope"></i> Hubungi
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-12 md:py-20 bg-gradient-to-b from-teal-50/70 to-transparent border-b border-slate-200/60">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12">
+        
+        <!-- Text Info -->
+        <div class="flex-1 text-center md:text-left">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-100 text-teal-800 text-xs font-semibold rounded-full mb-4">
+            <span class="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></span>
+            Mahasiswa S1 Keperawatan UNJAYA
+          </div>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Alif Pri Hardhono
+          </h1>
+          <p class="mt-3 text-lg font-medium text-teal-700">
+            Calon Ners Klinis & Layanan Pelanggan Berdedikasi
+          </p>
+          <p class="mt-4 text-slate-600 leading-relaxed text-sm sm:text-base max-w-xl">
+            Berfokus pada komunikasi terapeutik, pemantauan klinis pasien, serta manajemen layanan publik dengan pendekatan empati, disiplin, dan teliti.
+          </p>
+          
+          <!-- Actions & Contacts -->
+          <div class="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-3">
+            <a href="https://www.linkedin.com/in/alif-pri-hardhono" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium shadow-sm transition">
+              <i class="fa-brands fa-linkedin"></i> Profil LinkedIn
+            </a>
+            <a href="https://wa.me/6281779578026" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-medium shadow-sm transition">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+
+          <div class="mt-6 flex items-center justify-center md:justify-start gap-4 text-xs text-slate-500">
+            <span><i class="fa-solid fa-location-dot text-teal-600 mr-1.5"></i>Kulon Progo, D.I. Yogyakarta</span>
+            <span><i class="fa-solid fa-star text-amber-500 mr-1.5"></i>IPK 3.50 / 4.00</span>
+          </div>
+        </div>
+
+        <!-- Profile Photo -->
+        <div class="w-40 sm:w-48 md:w-56 shrink-0">
+          <div class="relative">
+            <div class="absolute -inset-1.5 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-2xl blur opacity-30"></div>
+            <div class="relative aspect-square rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-slate-200">
+              <!-- Ganti foto.jpg dengan file foto Alif -->
+              <img src="foto.jpg" alt="Alif Pri Hardhono" class="w-full h-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=Alif+Pri+Hardhono&background=0f766e&color=fff&size=256'">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12 space-y-16">
+
+    <!-- Tentang Saya -->
+    <section id="tentang" class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm">
+      <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2.5 mb-4">
+        <i class="fa-solid fa-circle-info text-teal-600"></i> Tentang Saya
+      </h2>
+      <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+        Mahasiswa Keperawatan di Universitas Jenderal Achmad Yani Yogyakarta (UNJAYA) dengan IPK 3.50 yang memiliki keahlian dalam komunikasi interpersonal, manajemen waktu, dan pelayanan kesehatan. Memiliki rekam jejak praktik klinik di RS PKU Muhammadiyah Gamping dan RS Hidayah, serta pengalaman lebih dari 1 tahun di bidang front-office dan kasir dalam mengelola administrasi transaksi harian secara akurat.
+      </p>
+    </section>
+
+    <!-- Pengalaman Klinis & Kerja -->
+    <section id="pengalaman" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2.5">
+          <i class="fa-solid fa-briefcase text-teal-600"></i> Pengalaman Praktik & Kerja
+        </h2>
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-200/70 text-slate-700 rounded-md">Klinis & Layanan</span>
+      </div>
+
+      <div class="space-y-4">
+        <!-- RS PKU Muhammadiyah Gamping -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-teal-300 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-bold text-base sm:text-lg text-slate-900">Perawat Magang (Clinical Nursing Intern)</h3>
+              <p class="text-sm font-semibold text-teal-700">RS PKU Muhammadiyah Gamping &bull; Sleman, D.I. Yogyakarta</p>
+            </div>
+            <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full self-start sm:self-center">
+              Mei 2026 – Jun 2026
+            </span>
+          </div>
+          <ul class="list-disc list-inside space-y-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <li>Memantau dan mencatat tanda-tanda vital bagi 20+ pasien rawat inap secara berkala setiap shift.</li>
+            <li>Membantu perawat senior dalam prosedur tindakan keperawatan dasar dan medikasi berstandar keselamatan 100%.</li>
+            <li>Menyusun dokumentasi asuhan keperawatan terstandar untuk 15+ rekam medis pasien secara terintegrasi.</li>
+            <li>Memberikan edukasi kesehatan dan komunikasi terapeutik kepada 25+ keluarga pasien guna mendukung percepatan pemulihan.</li>
+          </ul>
+        </div>
+
+        <!-- RS Hidayah -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-teal-300 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-bold text-base sm:text-lg text-slate-900">Praktikan Keperawatan Dasar (Nursing Intern)</h3>
+              <p class="text-sm font-semibold text-teal-700">RS Hidayah &bull; D.I. Yogyakarta</p>
+            </div>
+            <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full self-start sm:self-center">
+              Jun 2025 – Jul 2025
+            </span>
+          </div>
+          <ul class="list-disc list-inside space-y-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <li>Menerapkan prinsip aseptik dalam perawatan luka steril bagi 15+ pasien harian.</li>
+            <li>Mengobservasi dan melaporkan dinamika status klinis 20+ pasien kepada dokter dan perawat penanggung jawab.</li>
+            <li>Melaksanakan pengkajian awal dan anamnesis keperawatan dasar terhadap 30+ pasien di unit pelayanan.</li>
+          </ul>
+        </div>
+
+        <!-- Viral Barbershop -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-teal-300 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-bold text-base sm:text-lg text-slate-900">Kasir & Front Office Specialist</h3>
+              <p class="text-sm font-semibold text-teal-700">Viral Barbershop &bull; Kulon Progo, D.I. Yogyakarta</p>
+            </div>
+            <span class="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full self-start sm:self-center">
+              Apr 2023 – Sekarang
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 italic mb-2">Penyedia layanan potong rambut dan perawatan pria modern (one-stop grooming).</p>
+          <ul class="list-disc list-inside space-y-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <li>Mengelola pencatatan transaksi harian 30+ pelanggan dengan tingkat akurasi rekonsiliasi kas 100%.</li>
+            <li>Memberikan pelayanan ramah dan edukasi produk perawatan rambut untuk kepuasan 50+ pelanggan berkala.</li>
+            <li>Mengatur manajemen antrean dan reservasi guna mereduksi waktu tunggu hingga 20%.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pendidikan & Organisasi -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Pendidikan -->
+      <section id="pendidikan" class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+        <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2.5 mb-5">
+          <i class="fa-solid fa-graduation-cap text-teal-600"></i> Pendidikan
+        </h2>
+        <div class="space-y-6">
+          <div class="relative pl-5 border-l-2 border-teal-500">
+            <h3 class="font-bold text-sm sm:text-base text-slate-900">Universitas Jenderal Achmad Yani</h3>
+            <p class="text-xs text-teal-700 font-semibold">S1 Keperawatan (Bachelor of Nursing)</p>
+            <p class="text-xs text-slate-500 mt-1">2024 – 2028 (Diharapkan) &bull; IPK: 3.50 / 4.00</p>
+          </div>
+          <div class="relative pl-5 border-l-2 border-slate-300">
+            <h3 class="font-bold text-sm sm:text-base text-slate-900">SMA Negeri 1 Pengasih</h3>
+            <p class="text-xs text-slate-600 font-medium">MIPA / Ilmu Pengetahuan Alam</p>
+            <p class="text-xs text-slate-500 mt-1">2021 – 2024 &bull; Kulon Progo, D.I. Yogyakarta</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Organisasi -->
+      <section id="organisasi" class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+        <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2.5 mb-5">
+          <i class="fa-solid fa-users text-teal-600"></i> Organisasi
+        </h2>
+        <div class="space-y-4">
+          <div class="relative pl-5 border-l-2 border-teal-500">
+            <h3 class="font-bold text-sm sm:text-base text-slate-900">Majelis Perwakilan Kelas (MPK)</h3>
+            <p class="text-xs text-teal-700 font-semibold">Anggota Komisi Pengawasan & Event &bull; SMAN 1 Pengasih</p>
+            <p class="text-xs text-slate-500 mt-0.5 mb-2">Agu 2022 – Agu 2023</p>
+            <ul class="list-disc list-inside space-y-1 text-xs text-slate-600">
+              <li>Mengawal pelaksanaan 3+ program kerja tahunan sekolah.</li>
+              <li>Memimpin kepanitiaan event olahraga dengan 40+ peserta dan 1 sponsor.</li>
+              <li>Mengevaluasi 10+ laporan pertanggungjawaban kegiatan siswa.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Keahlian -->
+    <section id="keahlian" class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm">
+      <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2.5 mb-6">
+        <i class="fa-solid fa-toolbox text-teal-600"></i> Keahlian & Kompetensi
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Klinis & Medis -->
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-teal-800 mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-heart-pulse"></i> Asuhan Medis & Klinis
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Komunikasi Terapeutik</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Pemantauan TTV</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Prinsip Aseptik & Steril</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Dokumentasi Asuhan</span>
+          </div>
+        </div>
+
+        <!-- Layanan & Administrasi -->
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-teal-800 mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-headset"></i> Layanan & Administrasi
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Customer Service</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Sistem POS / Kasir</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Manajemen Antrean</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Rekonsiliasi Kas</span>
+          </div>
+        </div>
+
+        <!-- Software & Bahasa -->
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-teal-800 mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-laptop"></i> Perangkat Lunak & Bahasa
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Microsoft Word</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">PowerPoint</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Excel (Spreadsheet)</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Bahasa Indonesia (Native)</span>
+            <span class="px-2.5 py-1 bg-white text-slate-700 text-xs rounded-md border border-slate-200">Bahasa Inggris (Dasar)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak & Call-to-Action -->
+    <section id="kontak" class="bg-gradient-to-br from-teal-700 to-teal-900 text-white p-8 sm:p-10 rounded-2xl shadow-md text-center">
+      <h2 class="text-2xl font-bold tracking-tight">Tertarik untuk Berkolaborasi?</h2>
+      <p class="mt-2 text-teal-100 text-sm sm:text-base max-w-lg mx-auto">
+        Terbuka untuk kesempatan praktik klinik keperawatan, kegiatan sosial kesehatan, maupun peluang profesional lainnya.
+      </p>
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-4">
+        <a href="mailto:aldozu424@gmail.com" class="px-5 py-2.5 bg-white text-teal-900 font-bold rounded-lg text-sm hover:bg-teal-50 transition flex items-center gap-2 shadow-sm">
+          <i class="fa-solid fa-envelope"></i> aldozu424@gmail.com
+        </a>
+        <a href="tel:081779578026" class="px-5 py-2.5 bg-teal-800 text-white font-medium rounded-lg text-sm hover:bg-teal-700 transition flex items-center gap-2 border border-teal-500">
+          <i class="fa-solid fa-phone"></i> 081779578026
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 py-6 text-center text-xs text-slate-500 bg-white">
+    <p>&copy; 2026 Alif Pri Hardhono. Hak cipta dilindungi undang-undang.</p>
+  </footer>
+
+</body>
+</html>
